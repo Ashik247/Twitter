@@ -67,38 +67,25 @@
                                     <rect key="frame" x="0.0" y="0.0" width="414" height="119.66666666666667"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
-                                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="eGW-0L-XcL">
-                                            <rect key="frame" x="0.0" y="0.0" width="98" height="91"/>
-                                            <constraints>
-                                                <constraint firstAttribute="width" constant="98" id="QRi-8N-B5S"/>
-                                                <constraint firstAttribute="height" constant="91" id="ww8-oL-RNE"/>
-                                            </constraints>
+                                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="eGW-0L-XcL">
+                                            <rect key="frame" x="0.0" y="0.0" width="98" height="109"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         </imageView>
-                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Tweet" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="P0e-Gp-Est">
-                                            <rect key="frame" x="119" y="39" width="251" height="20"/>
-                                            <constraints>
-                                                <constraint firstAttribute="height" constant="20" id="EPB-p5-MKv"/>
-                                            </constraints>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Tweet" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="P0e-Gp-Est">
+                                            <rect key="frame" x="106" y="39" width="288" height="70"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                             <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                             <nil key="textColor"/>
                                             <nil key="highlightedColor"/>
                                         </label>
-                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xpZ-1j-Z5c">
-                                            <rect key="frame" x="119" y="11" width="45" height="20"/>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xpZ-1j-Z5c">
+                                            <rect key="frame" x="106" y="11" width="195" height="20"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                             <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                             <nil key="textColor"/>
                                             <nil key="highlightedColor"/>
                                         </label>
                                     </subviews>
-                                    <constraints>
-                                        <constraint firstItem="P0e-Gp-Est" firstAttribute="trailing" secondItem="VCX-Ax-5nM" secondAttribute="trailingMargin" id="6Bw-qY-3hg"/>
-                                        <constraint firstItem="P0e-Gp-Est" firstAttribute="top" secondItem="xpZ-1j-Z5c" secondAttribute="bottom" constant="4" id="bmB-7T-5Pn"/>
-                                        <constraint firstItem="eGW-0L-XcL" firstAttribute="leading" secondItem="VCX-Ax-5nM" secondAttribute="leading" id="cGo-Yc-vcr"/>
-                                        <constraint firstItem="xpZ-1j-Z5c" firstAttribute="top" secondItem="VCX-Ax-5nM" secondAttribute="topMargin" id="dYR-jg-1v1"/>
-                                        <constraint firstItem="xpZ-1j-Z5c" firstAttribute="leading" secondItem="eGW-0L-XcL" secondAttribute="trailing" constant="36" id="fRI-VQ-9v5"/>
-                                        <constraint firstItem="eGW-0L-XcL" firstAttribute="top" secondItem="VCX-Ax-5nM" secondAttribute="top" id="o61-OK-aHQ"/>
-                                        <constraint firstItem="P0e-Gp-Est" firstAttribute="leading" secondItem="eGW-0L-XcL" secondAttribute="trailing" constant="45" id="rbC-Rk-Bt1"/>
-                                    </constraints>
                                 </tableViewCellContentView>
                                 <connections>
                                     <outlet property="tweetContent" destination="P0e-Gp-Est" id="g4z-F0-3LV"/>
