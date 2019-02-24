@@ -88,8 +88,8 @@
                                     </subviews>
                                 </tableViewCellContentView>
                                 <connections>
+                                    <outlet property="profileImageView" destination="eGW-0L-XcL" id="Liw-51-hUM"/>
                                     <outlet property="tweetContent" destination="P0e-Gp-Est" id="g4z-F0-3LV"/>
-                                    <outlet property="tweetImageView" destination="eGW-0L-XcL" id="Liw-51-hUM"/>
                                     <outlet property="userNameLabel" destination="xpZ-1j-Z5c" id="yD5-9S-QDC"/>
                                 </connections>
                             </tableViewCell>

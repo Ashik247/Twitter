@@ -59,7 +59,7 @@ class HomeTableViewController: UITableViewController {
         let data = try? Data(contentsOf: imageUrl!)
         
         if let imageData = data {
-            cell.tweetImageView.image = UIImage(data: imageData)
+            cell.profileImageView.image = UIImage(data: imageData)
         }
         
         
